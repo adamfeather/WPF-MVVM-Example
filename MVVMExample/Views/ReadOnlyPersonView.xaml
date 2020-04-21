@@ -1,0 +1,36 @@
+﻿<UserControl 
+    x:Class="MVVMExample.Views.ReadOnlyPersonView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel>
+        <WrapPanel>
+            <Label>Id:</Label>
+            <TextBlock Text="{Binding Id}" />
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label>Forename:</Label>
+            <TextBlock Text="{Binding Forename}" />
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label>Surname:</Label>
+            <TextBlock Text="{Binding Surname}" />
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label>Birthday:</Label>
+            <TextBlock Text="{Binding Birthday}" />
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label>Favourite Cheese:</Label>
+            <TextBlock Text="{Binding FavouriteCheese}" />
+        </WrapPanel>
+    </StackPanel>
+
+</UserControl>
